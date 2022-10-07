@@ -1,0 +1,11 @@
+OLED_ENABLE = yes
+OLED_DRIVER = SSD1306
+RGBLIGHT_ENABLE = no
+RGB_MATRIX_ENABLE = yes
+MOUSEKEY_ENABLE = no
+CONSOLE_ENABLE = no
+UNICODE_ENABLE = no
+SWAP_HANDS_ENABLE= no
+WPM_ENABLE = yes
+
+EXTRAFLAGS += -flto #wont let there be any funcitons or macros
